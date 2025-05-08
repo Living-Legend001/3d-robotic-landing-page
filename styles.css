@@ -1,0 +1,337 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+}
+
+body {
+    background-image: url(bckg.jpg);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+.navbar {
+    width: 1260px;
+    height: 75px;
+    margin: auto;
+    font-size: 10px;
+    z-index: 999;
+    }
+    
+   
+
+    .logo {
+        width: 175px;
+        height: 102px;
+        float: left;
+        cursor: pointer;
+    }
+    
+    .my-logo {
+        float: left;
+    }
+
+
+   
+
+    .btn-signing-main:hover {
+        background-color: gray;
+        cursor: pointer;
+    }
+
+
+/* MAIN CONTENT */
+main {
+    color: blanchedalmond;
+    display: relative;
+    flex-direction: column;
+    justify-content: center;
+    min-height: calc(90vh - 6rem);
+}
+
+.content {
+    font-family: sans-serif;
+    padding-top: 140px;
+    max-width: 40rem;
+    margin-left: 5%;
+}
+
+.tag-box {
+    cursor: pointer;
+    position: relative;
+    width: 18rem;
+    height: 2.5rem;
+    border-radius: 50px;
+    background: linear-gradient(to right, #565656, #7f42a7, #6600c5, #5300a0, #757575, #656565);
+    background-size: 200%;
+    animation: animationGradient 2.5s linear infinite;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}
+
+@keyframes animationGradient {
+        to {
+            background-position: 200%;
+        }
+}
+
+.tag-box .tag {
+    position: absolute;
+    inset: 3px 3px 3px 3px;
+    background-color: black;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: 0.5s ease;
+    cursor: pointer;
+}
+
+.tag-box .tag:hover {
+    color: #5300a0;
+}
+
+.content h1 {
+    padding-bottom: -20px;
+    padding-top: 70px;
+    font-size: 1.7rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    margin: 2rem 0;
+    line-height: 1.2;
+    text-shadow: 0 0 10px rgba(128, 128, 128, 0.418);
+}
+
+.description {
+    font-size: 1.2rem;
+    letter-spacing: 0.05em;
+    width: 536px;
+    color: gray;
+}
+
+.buttons {
+    cursor: pointer;
+    display: flex;
+    gap: 1rem;
+    margin-top: 3rem;
+    padding-top: 150px;
+}
+
+.btn-get-started {
+    margin: 16px;
+    height: 45px;
+    text-decoration: none;
+    border: 1px solid #2a2a2a;
+    padding: 0.7rem 1.2rem;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    transition: background-color 0.2s;
+    cursor: pointer;
+}
+
+.btn-get-started:hover {
+    background-color: #1a1a1a;
+}
+
+
+.btn-signing-main {
+    margin-top: 15px;
+    width: 169px;
+    height: 40px;
+    cursor: pointer;
+    width: 207px;
+    text-decoration: none;
+    background-color: lightgray;
+    color: black;
+    padding: 0.6rem 2.5rem;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    transition: background-color 0.2s ease;
+    z-index: 999;
+}
+
+.btn-signing-main1 {
+    margin-left: 910px;
+    margin-top: 60px;
+    z-index: 999;
+    width: 152px;
+    text-decoration: none;
+    background-color: lightgray;
+    color: black;
+    padding: 0.6rem 2.5rem;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    transition: background-color 0.2s ease;
+}
+
+
+.btn-signing-main1:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+
+    .menu {
+        width: 430px;
+        float: left;
+        height: 100px;
+        background: transparent;
+        
+    }
+    
+    
+    
+    
+    ul {
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    ul li {
+        width: 70px;
+        list-style: none;
+        margin-left: 12px;
+        font-size: 10px;
+    }
+    
+    
+    ul li a {
+       
+        text-decoration: none;
+        color: white;
+        font-family: Arial;
+        font-weight: bold;
+        transition: 0.4s ease-in-out;
+    }
+    
+    
+    ul li a:hover {
+        color: purple;
+    }
+    
+    
+    .robot-3d {
+        position: absolute;
+       top: 150px;
+        margin-left: 29%;
+        max-width:  190%;
+       float: right;
+        
+    }
+
+
+
+
+@media only screen and (max-width: 1300px) {
+    body {
+        background-image: url(bckg.jpg);
+        background-size: cover;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    
+
+    ul li {
+        width: 100px;
+        list-style: none;
+        font-size: 15px;
+    }
+
+    .content {
+        margin-top: 10px;
+    }
+
+    .btn-signing-main1 {
+        margin-left: 1100px;
+       
+    }
+
+    .tag-box {
+
+        width: 19rem;
+         height: 4.0rem;
+        background-size: 800%;
+        font-size: 28px;
+        font-weight: 800;
+    }
+
+    .content h1 {
+        
+        margin-top: 10px;
+        width: 450px;
+        font-size: 30px;
+        font-weight: 800;
+        text-shadow: 0 0 20px rgba(128, 128, 128, 0.418);
+    }
+
+    .btn-signing-main {
+        margin-top: 10px;
+        width: 240px;
+        height: 40px;
+        font-size: 22px;
+        font-weight: 600;
+        
+        
+    }
+}
+
+
+@media only screen and (max-width: 1688px) {
+    .btn-signing-main1 {
+        margin-left: 580px;
+       
+    }
+}
+
+
+@media only screen and (max-width: 1043px) {
+    ul li {
+        width: 90px;
+        list-style: none;
+        margin-left: 4px;
+        font-size: 7px;
+        justify-content: left;
+        font-size: 11px;
+    } 
+
+    .btn-signing-main1 {
+        margin-left: 440px;
+       
+    }
+    
+}
+
+
+@media only screen and (max-width: 430px) {
+    .content {
+        margin-top: 100%;
+    }
+    
+    .robot-3d {
+        
+        top: 6%;
+        scale: 0.8;
+        right: 2%;
+        float: left;
+        
+    }
+    
+}
+
+
+
+
