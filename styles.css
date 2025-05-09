@@ -316,7 +316,7 @@ main {
 }
 
 
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 480px) {
     .content {
         margin-top: 100%;
     }
@@ -331,23 +331,4 @@ main {
     }
 }
 
-    @media only screen and (max-width: 260px) {
-         .content {
-        margin-top: 100%;
-    }
-
-         .robot-3d {
-        
-        top: 6%;
-        scale: 0.8;
-        right: 2%;
-        float: left;
-        
-    }
-        
-    }
-
-
-
-
-
+    
