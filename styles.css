@@ -326,9 +326,27 @@ main {
         top: 6%;
         scale: 0.8;
         right: 2%;
-        float: left;
-        
+        float: left; 
     }
+
+    .btn-signing-main1 {
+        margin-left: 110px;
+        margin-top: 30px;
+    }
+
+    .btn-signing-main {
+        width: 240px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .btn-get-started {
+        font-size: 14px;
+        letter-spacing: normal;
+    }
+
+
+
 }
 
     
